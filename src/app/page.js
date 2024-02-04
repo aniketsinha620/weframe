@@ -3,19 +3,19 @@ import ArticleCard from "./components/ArticleCard";
 import Card from "./components/Card";
 import Navbar from "./components/Navbar";
 import StoryCard from "./components/StoryCard";
-
+import './page.css'
 export default function Home() {
   return (
     <main className="min-h-screen ml-[240px] w-[calc(100%-240px)] bg-[#F8FAFB] pb-4">
-      {/* ********************nav part******************** */}
-      <Navbar />
+      <div className=""><Navbar /></div>
+
 
       <div className="pl-5 pt-8 space-y-6">
 
         <section className="pr-5">
           <h2 className="text-[35px] font-semibold">Hello Admin,</h2>
-          <p className="text-[17px] text-[#A0A3BD] ">This is what we got you for today.</p>
-          <div className="flex justify-between w-full mt-5">
+          <p className="text-[17px] text-[#323444] ">This is what we got you for today.</p>
+          <div className="admincard flex justify-between w-full mt-5 ">
             <AdminCard heading="Articles" text="4,950 New Updates" image='helloadmin1.png' />
             <AdminCard heading="Categories" text="10,275 New Updates" image='helloadmin2.png' />
             <AdminCard heading="Stories" text="4,193 New Updates" image='helloadmin3.png' />
