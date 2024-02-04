@@ -4,7 +4,6 @@ import Card from "./components/Card";
 import Navbar from "./components/Navbar";
 import StoryCard from "./components/StoryCard";
 
-
 export default function Home() {
   return (
     <main className="min-h-screen ml-[240px] w-[calc(100%-240px)] bg-[#F8FAFB] pb-4">
@@ -115,8 +114,8 @@ export default function Home() {
               title="Build your business"
               para="lorem"
               image="topstory1.png" />
-           
-              </div>
+
+          </div>
         </section>
       </div>
     </main>
